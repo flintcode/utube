@@ -1,0 +1,102 @@
+body{
+    background-color: whitesmoke;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+}
+
+li {
+    display:inline;
+}
+
+#sidebar {
+    float:right;
+    height:100%;
+    width:25%;
+    margin-left:0;
+    background:yellow;
+    display: block;
+    position: relative;
+    bottom:1900px;
+    
+}
+
+#navbar {
+    height:100px;
+    margin:0;
+    background:white;
+}
+
+#video {
+    height:750px;
+    width:75%;
+    background:black;
+}
+
+#titleDescrip {
+    background:red;
+    width:75%;
+    height: 125px;
+}
+
+#description {
+    background:green;
+    width:75%;
+    height: 250px;
+}
+
+#comments {
+    background:blue;
+    width:75%;
+    height: 750px;
+}
+
+#vid {
+    height:750px;
+    width:100%;
+}
+
+/* navbar */
+
+#searchbar {
+    margin-left:15%;
+    margin-right:10%;
+    width:50%;
+}
+
+/* title */
+
+.sharing {
+    float:right;
+}
+
+.date {
+    
+}
+
+/* description */
+
+#channelIcon {
+
+}
+
+#subButton {
+    float:right;
+}
+
+
+.browse {
+    display:flex;
+    flex-direction: column;
+}
+
+/* sidebar */
+#autoPlay {
+    float:right;
+}
